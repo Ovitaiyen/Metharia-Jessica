@@ -185,8 +185,8 @@ https://youtu.be/e8DYUPu3PuM?feature=shared
         </table>
         <br>
         <input type="submit" value="Submit">
-    </form>
 </body>
+      <body>
 <h2>Formulir Perpanjangan peminjaman buku </h2>
     <form action="#" method="post">
         <table>
