@@ -22,7 +22,6 @@ https://youtu.be/e8DYUPu3PuM?feature=shared
 </body>
 </html>
 
-</html>
 <h2>Formulir Perpustakaan Universitas Negeri Medan</h2>
     <form action="#" method="post">
         <table>
