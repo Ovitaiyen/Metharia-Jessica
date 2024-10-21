@@ -1,11 +1,91 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        .navbar {
+            background-color: #333;
+            position: relative;
+            z-index: 999;
+        }
 
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
 
-PERPUSTAKAAN UNIVERSITAS NEGERI MEDAN
+        .navbar li {
+            display: inline-block;
+            position: relative; /* Untuk menempatkan submenu dengan benar */
+        }
 
-Perkenalkan saya Metharia Jessica, ini adalah pengalaman pertama saya dalam membuat Website untuk memenuhi tugas matakuliah Pemograman Web. Perpustakaan yang saya ambil adalah Perpustakaan Unimed selengkapnya mengenai perpustakaan unimed dapat dilihat melalui link yang disertakan https://perpustakaan.unimed.ac.id/
+        .navbar li a {
+            color: white;
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .navbar ul ul {
+            position: absolute;
+            top: 100%;
+            display: none;
+            background-color: #333; /* Untuk mempertahankan gaya dropdown */
+        }
+
+        .navbar ul ul li {
+            display: block;
+        }
+
+        .navbar li:hover > ul {
+            display: block;
+        }
+
+        .navbar ul ul li a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="halaman">
+        <nav class="navbar"> <!-- Menambahkan kelas untuk styling -->
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li>
+                    <a href="#">dropdown</a>
+                    <ul>
+                        <li><a href="perpustakaan.html">Submenu-1</a></li>
+                        <li><a href="buku.html">Submenu-2</a></li>
+                        <li><a href="table pemesanan.html">Submenu-3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>
+
+<h1>PERPUSTAKAAN UNIVERSITAS NEGERI MEDAN</h1>
+
+<h2>Perkenalkan saya Metharia Jessica, ini adalah pengalaman pertama saya dalam membuat Website untuk memenuhi tugas matakuliah Pemograman Web. Perpustakaan yang saya ambil adalah Perpustakaan Unimed selengkapnya mengenai perpustakaan unimed dapat dilihat melalui link yang disertakan https://perpustakaan.unimed.ac.id/</h2>
 
 ![WhatsApp Image 2024-09-22 at 19 57 41](https://github.com/user-attachments/assets/39e963ec-fc2f-4451-8cb7-2aa81ee63a35)
 
+<div class="dropdown">
+        <button class="mainmenubtn">Main Menu</button>
+        <div class="dropdown-child">
+            <a href="http://www.yourdomain.com/page1.html">Sub Menu 1</a>
+            <a href="http://www.yourdomain.com/page2.html">Sub Menu 2</a>
+            <a href="http://www.yourdomain.com/page3.html">Sub Menu 3</a>
+            <a href="http://www.yourdomain.com/page4.html">Sub Menu 4</a>
+            <a href="http://www.yourdomain.com/page5.html">Sub Menu 5</a>
+        </div>
 Berikut video profile Perpustakaan Universitas Negeri Medan
 https://youtu.be/e8DYUPu3PuM?feature=shared
 
