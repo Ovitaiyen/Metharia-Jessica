@@ -62,7 +62,7 @@
                         <li><a href="perpustakaan.html">Submenu-1</a></li>
                         <li><a href="buku.html">Submenu-2</a></li>
                         <li><a href="table pemesanan.html">Submenu-3</a></li>
-                        
+                        <li><a href="Modul5 soal2.html">Modul 5-1</a></li>
                     </ul>
                 </li>
             </ul>
